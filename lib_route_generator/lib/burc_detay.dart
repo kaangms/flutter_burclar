@@ -63,7 +63,7 @@ class _BurcDetayState extends State<BurcDetay> {
     _generator = await PaletteGenerator.fromImageProvider(
         AssetImage(widget.secilenBurc.burcBuyukResim));
     appbarRengi = _generator.vibrantColor!.color;
-     print('baskın renk bulundu build metotu tekrar calıstırılacak');
+    print('baskın renk bulundu build metotu tekrar calıstırılacak');
     setState(() {});
     print(appbarRengi);
   }
